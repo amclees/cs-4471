@@ -1,0 +1,53 @@
+Syllabus
+
+There is a lab for this class, the time is arranged by students
+The lab is in ECST C245
+
+Final is at 9:30 (not university's time of 7)
+
+The textbook is apparently very good
+
+The 1 student with the highest number of absences gets a 0 in attendence, this sets the scale from absences of other students
+In essence, attendance grades have their own curves
+"1 leave early = 1 absent"
+
+There will be a curve that guarantees that some students in this class will get an A
+
+PowerPoints will be on CSNS
+
+
+Hub
+  Takes a frame and broadcasts it to all other ports
+  When two devices send simultaneously, there is a collision
+  Main used algorithm is CSMA/CD
+  Unicast and broadcasts are heard by all other devices, but devices only handle broadcasts
+  Half-duplex means ~monoplex, one sender at a time rather than full duplex
+  In networks with hubs, switches and divide the network into segments which are their own collision domains
+  Low bandwidth on hubs
+Bridge
+  A bridge is an antiquated version of a switch with 2 ports, it splits a network into 2 collision domains
+
+Also covered router/switch
+
+In class practice 1
+  Initial - Router or switch work
+  No, router creates broadcast domains rather than collision domains
+
+Exam will have a similar figure to the slides and ask for the number of collision domains
+  Ignore external networks
+  Bridges always have 3 collision domains
+
+In class practice 2
+  1 Initial - C
+  2 - C
+  3 - B (Always one arrow for hub)
+  4 - C (The question is phrased so C or E is right)
+  5 - A
+  6 - A
+  7 - B
+  8 - A
+  9 - E
+  10 - A C
+
+all people seem to need data processing
+
