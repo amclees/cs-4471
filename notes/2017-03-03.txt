@@ -1,0 +1,76 @@
+Cisco Discovery Protocol (CDP)
+  The next network project will require us to create our own network
+  It is designed to collect information about devices attached locally to a device
+
+  For example:
+                     Switch
+                       |
+      LAN ---------- Router ----------- Router
+
+      Always think about which areas in the topology are subnets/LANs
+
+  The general term for a connected devices is called the next-hop
+
+  In the Cisco console, run `sh cdp neighbors` to show information about neighboring devices
+  Remember, Cisco likes to make their own commands. `sh` means show, not shell like it does everywhere else
+
+DNS Setup
+  Commands
+    Be in command mode before executing the three commands
+
+  Debug Commands
+    ping
+    traceroute
+    debug (generic errors/routing info)
+    sh processes (show processes, CPU utilization)
+
+
+Chapter 8 - Managing Cisco Devices
+  All Cisco routers have a 16-bit software register stored in NVRAM
+  Start configuration is also in NVRAM
+  The Cisco IOS is loaded from flash memory by default
+
+  Changing the configuration register is sometimes necessary
+
+  The default value is 0x2102 (0010 0001 0000 0010)
+
+  Run `sh version` to see the value of the configuration register
+
+  Turn on bit 6 to reset the password, this makes the router ignore the contents of the NVRAM
+    0x2142 (0010 0001 0100 0010)
+
+  The reset process requires interrupting the boot sequence of the router, then changing the configuration register. Following this by resetting the password, changing the register back, and writing the new startup-config to the NVRAM completes the password reset.
+
+  Upgrading the Cisco IOS or restoring is also needed
+    First, backup the IOS to a TFTP server
+      The TFTP server needs to be hosted in the same subnet as the router's E0 interface
+    Verify there is enough space in the flash memory with `sh flash`
+    Run `copy tftp flash` to download the new IOS flash (the file uses the .bin extension)
+
+  Cisco used to have different images for different sets of features
+  Now there is only one universal image (v15+), but in order to be used features must be unlocked through the activation process
+
+  Run `sh license udi` to get the Unique Device Identifier (UDI). It is the product ID and serial number together
+
+  `license install flash:<FILENAME>.lic` is used to install the license
+  You can try a feature for 60 days with an evaluation license (RTU right-to-use license)
+  Run `license boot module` to enable RTU licenses
+  `show license`, `show license feature`, `show license udi`, `show version`, `license install URL`, `license boot module`
+
+Chapter 9 - IP Routing
+  Routing basic
+    Structure of a routing table -> maps destination to next hop
+    Use longest prefix matching
+  Run `sh ip route` to view the routing table on a router
+    This command also summarizes the number of subnets and masks in use
+  Remember bit, frame, datagram, segment, message for midterm
+
+  3 routing methods covered:
+    Static routing
+    Default routing
+    Dynamic routing
+      AD is the Administrative Distance
+      It is used to determine how much to trust advertised values
+
+  RIP routing (Routing Information Protocol, proprietary by Cisco)
+    Run `router rip`, then run the `network` command twice
