@@ -1,0 +1,78 @@
+Review from Chapter 9 
+1. A - Routing
+2. B - ip route
+3. C - next-hope_address
+4. C - AD
+5. A and B
+6. C - RIP (Uses DV algorithm)
+
+Layer 2 functions of switches
+  Plug-and-play address learning
+    Unknown destinations result in flooding
+    When the switch receives a response, it updates its table
+  Forwarding of packets to learned destinations
+  Avoidance of loops via Spanning Tree Protocol (STP)
+
+Port security on switches
+  Security is always done by individual ports - port security, not switch security
+  Cisco switches allow whitelisting a single IP address for a port
+
+Broadcast storm
+  An infinite flood of broadcasts caused by link failures between switches
+
+CAM
+  Content addressable memory
+
+Questions
+1. A
+2. C
+3. C
+4. D
+5. B
+6. D
+
+VLAN and inter-VLAN routing
+  VLANs provide simulation of multiple switches and seperate the broadcast domains of different devices
+  Each access port has ony one VLAN
+  This VLAN may be configured for each access port
+  Each port may be either an access or trunk port but not both
+
+  Trunk ports are for inter-VLAN communication
+  Access ports are for communication in the same VLAN
+
+  A trunk port is a member of all VLANs
+
+  VLANs may be connected to multiple switches if the switches are connected by a trunk link
+
+  IEEE 802.1q is a standard for frame tagging
+  The tag is inserted into the ethernet frame with VLAN ID, Canonical Format Identifier (CFI), and a user priority field
+
+  Inter-VLAN communication requires a router with one interface per VLAN
+
+  Inter-VLAN Routing (IVR) is used to route between VLANs
+
+  VLAN 1 is the native and management VLAN by default
+
+  `sh vlan` lists VLAN access ports
+  `show interfaces trunk` lists VLAN trunk ports
+
+  `switchport mode access` sets an interface as an access port
+
+Midterm Review
+  Midterm will happen at 9:30 on Saturday 2017-03-17
+  Chapters 1-10 will be covered
+
+  Formats
+    Multiple choice - only 1 correct answer
+    I. 60 questions - 50 1-point questions, 10 2-point questions
+      All are multiple choice but some will need scratchpaper
+      3 sources for questions
+        1. Slides ("Sometime I directly copy questions from the slides to your exams")
+        2. Review (CCNA textbook review questions, but questions from here are all covered in the slides)
+        3. "My own" ("I just read the contents in the slides and make some multiple-choice questions")
+    II. 3 short-answer questions (30 points, 10 each)
+      1. Chapter 4 : big-5 (layers?)
+      2. Chapter 5 : VLSM
+      3. Chapter 9 : IP routing
+      No conceptual questions, only quantitative answers
+
