@@ -1,0 +1,96 @@
+VLAN Configuration
+  Two types of VLAN ports
+    Trunk port (All VLANs)
+    Access port (only one VLAN)
+
+  Trunk ports are connected to a router
+  Access ports are connected to a host
+
+  The router has multiple virtual interfaces - one per VLAN
+  A naming convention is fastethernet0/1.X where X is the VLAN ID
+
+  Subnet description information
+    IP address
+    Subnet mask
+
+  VLANs are subnets, so they are described using
+    IP address
+    Subnet mask
+    VLAN ID
+
+  The 'encapsulation' command in Cisco IOS allows creation of subinterfaces on a router
+
+  So far we focuses on router on a stick
+
+  The is also Switch Virtual Interface (SVI)
+
+  Use `ip routing` to enable SVI on a switch to allow VLAN configuration
+
+
+Enhanced Switching
+  Spanning-Tree Protocol (STP)
+    Designed to prevent loops in a layer 2 network by enforcing a tree-like structure
+    STP develops a database of topology, the creates a tree
+    The tree is then used by all switches when sending frames
+
+    Root Switch
+      Switch with the lowest (and best) switch id
+    Switch ID
+      Compound of switch priority (32768 default) and MAC address (base not port)
+    BPDU (Switch Protocol Data Unit)
+      A type of frame with STP information
+      Three types
+        Config BPDU for initial provision of information
+        TCN - Topology Change Notification
+        TCA - Topology Change ACK
+
+    Port roles
+      Root port (The root port is the link the the lowest cost to the root switch)
+      Designated port (The port STP designates to be used because it is a part of the tree)
+      Forwarding port (Either a root port or designated port)
+      Blocked port (A blocked port is excluded from the tree to prevent loops)
+
+    Convergence
+      Convergence does not refer to the process, rather,
+      it refers to the time after the protocol has converged
+
+      Once all ports are either Forwarding or Blocked ports, then convergence has occurred
+      No host data is transmitted while STP is converging
+
+    Link Cost (On final exam)
+      Port cost is the cost of a link
+      Path cost is the sum of all port costs to the root switch
+      Cost values
+      Bandwidth     | Cost
+      10 Mb/s     | 100
+      100 Mb/s    | 19
+      1000 Mb/s   | 4
+      10,000 Mb/s | 2
+
+    All ports in the root switch are forwarding ports 
+      They could not be root
+      The root of a tree cannot cut branches without breaking connections to hosts)
+
+    Algorithm (Will be a short-answer question on final exam)
+      Determine root switch based on switch id
+        Minimum switch ID (priority . MAC address)
+      Identify port types
+
+    Variants (On exam)
+      IEEE 802.1d - original standard, also called Common Spanning Tree (CST)
+        Very slow, does not account for costs
+        Primarily a solution to layer 2 loops
+      PVST+ - Cisco proprietary enhancement with seperate 802.1d STP instance for each VLAN
+        Still takes time, but there are multiple root switchs
+        Has a special unique switch ID
+          Switch priority . sys-id-ext . MAC address
+      RSTP - Rapid Spanning Tree Protocol
+        Faster than CST and PVST+
+        On the exam we may need to calculate the path cost for use in determining root switch
+        In RSTP - consider path cost, then consider switch id
+        Port priority (default 32) may be set to override cost
+        If everything else ties, the port with the lowest interface number is chosen
+          Should not ever happen
+
+
+
