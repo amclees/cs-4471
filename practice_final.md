@@ -1331,9 +1331,276 @@ earn a spot in a proprietary Cisco protocol.
 
 ---
 
+108. OSPF is often used in small personal networks due to its simplicity
+
+  a. True
+
+  b. False
+
+---
+
+109. OSPF Area 0 is also known as:
+
+  a. The spine area
+
+  b. The backbone area
+
+  c. The external routing domain
+
+  d. The backyard domain
+
+---
+
+110. The ASBR is in what area?
+
+  a. 0
+
+  b. Any area other than 0
+
+  c. Any area
+
+---
+
+110. An OSPF link is:
+
+  a. Any network
+
+  b. Any network or interface
+
+  c. Any interface added to the OSPF instance
+
+  d. a. and c.
+
+  e. OSPF does not define what a link is
+
+---
+
+111. An OSPF RID is
+
+  a. The IP address of a link
+
+  b. The IP address of an interface
+
+  c. An IP address that identifies a router
+
+  d. A UUID for a route
+
+  e. The uppercase version of a UNIX utility for mapping UUIDs to other IDs
+
+---
+
+112. OSPF neighborship has conditions. What are they?
+
+  a. Equivalent Area ID
+
+  b. Equivalent Stub Area Flag
+
+  c. Equivalent Password
+
+  d. Equivalent Hello/Dead Intervals
+
+  e. All of the above
+
+  f. a., b., and c
+
+  g. None of the above
+
+---
+
+113. Adjacencies are formed with all OSPF neighbors
+
+  a. True
+
+  b. False
+
+---
+
+114. In OSPF, all routers on a shared network establish adjacency with two
+routers. What are they?
+
+  a. DR/BDR
+
+  b. AR/ABR
+
+  c. ASBR/BASBR
+
+  d. The above answers are not sufficient to represent all possible OSPF
+configurations
+
+---
+
+115. The ___ protocol discovers neighbors and maintains their relationships in
+OSPF.
+
+  a. Hello
+
+  b. Link state
+
+  c. Distance-vector
+
+  d. Such a protocol does not exist, the protocol is just OSPF
+
+---
+
+116. The neighborship database is typically stored in the cloud. Choose the best
+answer from below.
+
+  a. True
+
+  b. False
+
+  c. OSPF has no neighborship database
+
+  d. The database uses Redis so it needs to be running in-memory on the router
+
+---
+
+117. \_\_\_s are OSPF messages containing routing information sent between
+routers
+
+  a. LSA
+
+  b. BSA
+
+  c. RSA
+
+  d. AES
+
+  e. DSA
+
+  f. OSPF does not exchange routing information between routers
+
+---
+
+118. An area ID is associated with:
+
+  a. A router
+
+  b. An interface
+
+---
+
+119. All routers and networks in an OSPF area must be contiguous
+
+  a. True
+
+  b. False
+
+---
+
+120. How many standard modes of operation of OSPF are there?
+
+  a. 13
+
+  b. 2
+
+  c. 3
+
+  d. 4
+
+  e. OSPF always uses broadcast multi-access mode and no other modes exist
+
+---
+
+121. OSPF has three stages. What are they (order matters)?
+
+  a. Neighbor and adjacency initialization, SPF tree calculation, LSA flooding
+
+  b. Neighbor initialization, SPF tree calculation, LSA P2P advanced transfer
+
+  c. Neighbor and adjacency initialization, LSA flooding, SPF tree calculation
+
+  d. OSPF has four stages
+
+---
+
+122. Point-to-point and broadcast OSPF instance respectively use what multicast
+addresses for transferring LSAs to all adjacent links?
+
+  a. 224.0.0.5, 224.0.0.6
+
+  b. 224.0.0.6, 224.0.0.5
+
+  c. 224.0.1.5, 224.0.0.5
+
+  d. 224.0.0.5, 224.0.1.5
+
+  e. OSPF does not transfer LSAs
+
+---
+
+123. SPF calculation happens for each:
+
+  a. OSPF instance
+
+  b. Backbone area
+
+  c. Area
+
+  d. Network
+
+  e. Link
+
+  f. SPF calculation does not happen because of a special OSPF feature known as
+RAID-0
+
+---
+
+124. Which command enables OSPF on a Cisco router?
+
+  a. `no shutdown ospf <process id>`
+
+  b. `no stop ospf <process id>`
+
+  c. `router ospf <process id>`
+
+  d. `ospf <process id>`
+
+  e. Cisco routers do not support OSPF
+
+---
+
+125. OSPF area numbers are \_\_\_-bit \_\_\_ integers
+
+  a. 32, unsigned
+
+  b. 32, signed
+
+  c. 16, unsigned
+
+  d. 16, signed
+
+  e. They are arbitrary precision floating point numbers
+
+---
+
+126. The `network` Cisco IOS command takes an IP address and a subnet mask as
+two of its arguements
+
+  a. True
+
+  b. False
+
+  c. There is no such command
+
+---
+
+127. Which command disables OSPF for a particular interface on a Cisco router?
+
+  a. `passive-interface <interface id>`
+
+  b. `no ospf <interface id>`
+
+  c. `ospf-interface off <interface id>`
+
+  d. `no no disable ospf <interface id>`
+
+  e. None of the above
+
+---
+
 Todo:
 
-* Chapters 18
 * Chapters 19
 * Chapters 20
 * Chapters 21
