@@ -1052,9 +1052,133 @@ upon a failure
 
 ---
 
+86. With DAI enabled, DHCP offers are:
+
+  a. Guaranteed to reach their destination regardless of connection
+
+  b. Only accepted from trusted interfaces
+
+  c. Met with a retaliatory DDOS attack if they come from untrusted interfaces
+
+  d. Accelerated to allow faster network expansion
+
+---
+
+87. IEEE 802.1x is a standard for \_\_\_-based networking
+
+  a. Authentication
+
+  b. Identity
+
+  c. Blockchain
+
+  d. STOP
+
+  e. None of the above
+
+---
+
+88. The authentication server in IEEE 802.1x is called what?
+
+  a. DIAMETER
+
+  b. PERIMETER
+
+  c. RADIUS
+
+  d. SURFACE AREA
+
+  e. ARC LENGTH
+
+---
+
+89. With proxy ARP enabled, routers respond to ARP requests:
+
+  a. In the same subnet as the host
+
+  b. On a different subnet from the host
+
+  c. On the other side of a firewall from the host
+
+  d. That are invalid
+
+---
+
+90. FHRPs allow:
+
+  a. Mapping multiple physical routers to one logical one
+
+  b. Mapping one logical router to other logical ones
+
+  c. Mapping multiple logical routers to one physical one
+
+---
+
+91. HSRP is a FHRP distinguished by being:
+
+  a. Cisco proprietary
+
+  b. An open standard
+
+  c. Having 4 classes of routers involved in its operation
+
+  d. a. and c.
+
+  e. b. and c.
+
+---
+
+92. HSRP uses:
+
+  a. A single virtual MAC address for each logical router
+
+  b. Each router's physical MAC address except when routers are lost
+
+  c. Multicast Hello messages to verify devices are up
+
+  d. a. and c.
+
+  e. b. and c.
+
+  f. a., b., and c.
+
+---
+
+93. The HSRP MAC address has three parts: an OUI, the HSRP ID, and the HSRP
+group number. The respective lengths of these parts in bytes are what?
+
+  a. 24, 16, 8
+
+  b. 22, 14, 12
+
+  c. 3, 2, 1
+
+  d. 4, 1, 1
+
+---
+
+94. HSRP uses timers. Which list includes all HSRP timers?
+
+  a. Hello, Standby, Active, Hold
+
+  b. Hold, Active, Wait, Hello
+
+  c. Standby, Hello, Reactive, Wait
+
+  d. Standy, Hello, Active, Release
+
+---
+
+95. HSRP utilizes standby routers to relieve congestion as necessary.
+
+  a. True
+
+  b. False
+
+---
+
 Todo:
 
-* Chapters 16
 * Chapters 17
 * Chapters 18
 * Chapters 19
