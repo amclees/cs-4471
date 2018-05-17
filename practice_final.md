@@ -1177,9 +1177,162 @@ group number. The respective lengths of these parts in bytes are what?
 
 ---
 
+96. EIGRP is a:
+
+  a. Classful distance-vector protocol
+
+  b. Classful link-state protocol
+
+  c. Classless distance-vector protocol
+
+  d. Classless link-state protocol
+
+---
+
+97. EIGRP is intercompatible with other protocols, that is, some routers being
+routed through may be running another protocol.
+
+  a. True
+
+  b. False
+
+---
+
+98. A new router running EIGRP sends a ___ request to its interfaces
+
+  a. Hello
+
+  b. ACK
+
+  c. Metric
+
+  d. No request is sent when a new router joins
+
+---
+
+99. If two routers running EIGRP have different AS numbers:
+
+  a. They will not consider each other neighbors
+
+  b. They will broadcast to route to the new AS through all their interfaces
+
+  c. They will enter an endless flood of Hello and ACK packets
+
+---
+
+100. Each EIGRP session maintains a table T of neighbors' IP addresses, hold
+time intervals, SRTTs, and queue information. This table is called:
+
+  a. Neighbor table
+
+  b. Routing table
+
+  c. Session table
+
+  d. This table does not actually exist and thus has no name
+
+  e. Topology table
+
+---
+
+101. View the following figure:
+
+```
+    5      1
+NY --- LA --- SF
+```
+
+The AD and FD from NY to SF are:
+
+  a. 5, 4
+
+  b. 4, 5
+
+  c. 1, 6
+
+  d. 6, 1
+
+  e. 5, 1
+
+---
+
+102. The EIGRP topology table differs how from a routing table:
+
+  a. It contains additional locational metadata
+
+  b. It contains backup routes called feasible successors
+
+  c. It is stored as a JSON file in the cloud
+
+  d. EIGRP does not have such a table
+
+---
+
+103. EIGRP has 5 types of packets. What are they?
+
+  a. Hello, ACK, Response, Search, Query
+
+  b. ACK, Search, Reply, Query, `no Query`
+
+  c. Hello, Query, Reply, ACK, Update
+
+  d. GET, PUT, POST, PATCH, DELETE
+
+---
+
+104. The algorithm in EIGRP that selects the best path for inclusion in the
+routing table is called:
+
+  a. TOURNAMENT
+
+  b. DUAL
+
+  c. DAUL
+
+  d. This algorithm is called EIGRP. There is not another separate algorithm
+
+---
+
+105. Routing information updates received from a neighbor are forwarded to all
+other EIGRP neighbors. This process is called:
+
+  a. PortSmart
+
+  b. SmartPort
+
+  c. Split Horizon
+
+  d. Smart Horizon
+
+  e. This is not what happens! Updates are forwarded back to **ALL** EIGRP
+neighbors including the sender.
+
+---
+
+106. When the best path is selected in EIGRP, four factors are considered. They
+are:
+
+  a. Load, Bandwidth, Latency, Accuracy
+
+  b. Speed, Reliability, Security, Cost
+
+  c. Bandwidth, Delay, Load, Reliability
+
+  d. Only one factor is considered: bandwidth. Other factors are too minor to
+earn a spot in a proprietary Cisco protocol.
+
+---
+
+107. EIGRPv6 exists and is EIGRP for IPv6
+
+  a. True
+
+  b. False
+
+---
+
 Todo:
 
-* Chapters 17
 * Chapters 18
 * Chapters 19
 * Chapters 20
