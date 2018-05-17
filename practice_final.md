@@ -554,9 +554,291 @@ to use?
 
 ---
 
+45. An IPv6 address consists of ___ 16-bit blocks.
+
+  a. 6
+
+  b. 7
+
+  c. 8
+
+  d. 12
+
+---
+
+46. The first 48 bits of an IPv6 address are the:
+
+  a. MAC address
+
+  b. Global prefix
+
+  c. Interface ID
+
+  d. Subnet
+
+---
+
+47. The next 16 bits of an IPv6 address are the:
+
+  a. MAC address
+
+  b. Global prefix
+
+  c. Interface ID
+
+  d. Subnet
+
+---
+
+47. The next 64 bits of an IPv6 address are the:
+
+  a. MAC address
+
+  b. Global prefix
+
+  c. Interface ID
+
+  d. Subnet
+
+---
+
+48. Which of the following is not a valid IPv6 address?
+
+  a. `2001::12::1234:56ab`
+
+  b. `2001::12:0:0:1234:56ab`
+
+  c. `2001:db8:3c4d:12::1234:56ab`
+
+---
+
+49. Any IPv6 address starting with ___ is a multicast address.
+
+  a. `no multicast`
+
+  b. `ff`
+
+  c. `fe`
+
+  d. `f0`
+
+---
+
+50. Anycast addresses are typically only configured on:
+
+  a. Hosts
+
+  b. Switches
+
+  c. Bridges
+
+  d. Hubs
+
+  e. Routers
+
+---
+
+51. The difference between anycast and multicast addresses is:
+
+  a. Anycast delivers the datagram to only one devices, the closest
+
+  b. Multicast delivers the datagram to all devices on the address
+
+  c. a. and b.
+
+  d. a. and b. reversed (they are the opposite of the correct answer)
+
+---
+
+52. IPv6 addresses that are globally routable are called \_\_\_ and start with
+\_\_\_.
+
+  a. Global unicast addresses, `2000`
+
+  b. Link-local addresses, `2000`
+
+  c. Global unicast addresses, `db8`
+
+  d. Link-local addresses, `fc00`
+
+---
+
+53. Unique local addresses are routable
+
+  a. True
+
+  b. False
+
+---
+
+54. Link-local addresses are routable
+
+  a. True
+
+  b. False
+
+---
+
+55. The original IETF recommendations for IETF allocation for the registry, ISP,
+company, and subnet portions of a global unicast address were (in bit offset
+from the address type specifier):
+
+  a. 23, 32, 48, 64
+
+  b. 24, 31, 48, 64
+
+  c. 22, 32, 48, 64
+
+  d. 32, 36, 42, 48
+
+---
+
+56. Which command enables all IPv6 routing on a Cisco router?
+
+  a. `no shutdown ipv6`
+
+  b. `no disable ipv6`
+
+  c. `ipv6 unicast-routing`
+
+  d. `no shutdown ipv6 all-routing`
+
+  e. `ipv6 enable`
+
+---
+
+57. Using the `ipv6 address <address>/<prefix length>` command, how can the
+device's padded MAC address be used to automatically fill the interface ID
+portion of the address?
+
+  a. `ipv6 address <address>/<prefix length>` will automatically handle it
+
+  b. `ipv6 address <address>/<prefix length> eiu-48`
+
+  c. `ipv6 address <address>/<prefix length> eui-64`
+
+  d. `ipv6 address <address>/<prefix length> eui-48`
+
+  c. `ipv6 address <address>/<prefix length> mac`
+
+---
+
+58. In the most common MAC padding schema (from 57.), the MAC is padding by:
+
+  a. Prepending `FFFF`
+
+  b. Appending `FFFF`
+
+  c. Prepending `FFFE`
+
+  d. Appending `FFFE`
+
+  e. Generating 16 random bits, then XORing them with each of the 4 16-bit
+portions of the max address. This result is then placed into a 2x2 matrix which is
+multiplied with a random matrix in a Galois field.
+
+---
+
+59. Which command enables IPv6 stateless autoconfig using MAC padding?
+
+  a. `ipv6 address autoconfig on`
+
+  b. `no manual ipv6 address default`
+
+  c. `no manualconfig ipv6`
+
+  d. `ipv4 address autoconfig default`
+
+  e. `ipv6 address autoconfig default`
+
+---
+
+60. In the stateless autoconfig process, RS and RA respectively stand for:
+
+  a. Router solicitation and router advertisement
+
+  b. Router solicitation and route advertisement
+
+  c. Route solicitation and router advertisement
+
+  d. Route slip and router aversion
+
+---
+
+61. DAD is \_\_\_.
+
+  a. Dicyclic A-class error Detection
+
+  b. Duplicate Address Detection
+
+  c. Duplicate Advertisement Distrust
+
+---
+
+62. DAD is implemented with two types of messages:
+
+  a. NS/NA
+
+  b. NA/NR
+
+  c. AR/VR
+
+  d. NA/AR
+
+---
+
+63. Which of the following commands set up an IPv6 default route?
+
+  a. `ipv6 route ::/0 gi0/0`
+
+  b. `ipv6 route 2001:DB8:43:91::2/64 gi0/0`
+
+  c. `ip route ::/0 gi0/0`
+
+---
+
+64. What is the size of the IPv4 header?
+
+  a. 32 bytes
+
+  b. 20 bytes
+
+  c. 128 bytes
+
+  d. 32768 bits
+
+---
+
+65. The type field in an ICMPv6 packet is how many bits?
+
+  a. 7
+
+  b. 8
+
+  c. 9
+
+  d. 16
+
+  e. 4
+
+---
+
+66. A ping request uses the ICMPv6 message type of:
+
+  a. 128
+
+  b. 129
+
+  c. 254
+
+  d. 255
+
+  e. 256
+
+---
+
 Todo:
 
-* Chapters 14
 * Chapters 15
 * Chapters 16
 * Chapters 17
