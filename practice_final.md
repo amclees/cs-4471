@@ -837,9 +837,223 @@ multiplied with a random matrix in a Galois field.
 
 ---
 
+67. STP stands for:
+
+  a. Special Tree Protocol
+
+  b. Spanning Tree Primer
+
+  c. Specific Time Protocol
+
+---
+
+68. The root bridge is the bridge with the:
+
+  a. Lowest bridge ID
+
+  b. Highest bridge ID
+
+  c. Median bridge ID
+
+---
+
+69. The bridge ID is formed by:
+
+  a. Appending the bridge priority to the MAC address
+
+  b. Prepending the bridge priority to the MAC address
+
+  c. Adding the bridge priority to the MAC address
+
+---
+
+70. A root port is:
+
+  a. A port which does not forward any frames
+
+  b. A port with the lowest cost to reach a particular network segment
+
+  c. The port with the lowest path cost to the root bridge
+
+---
+
+71. A blocking port is:
+
+  a. A port which does not forward any frames
+
+  b. A port with the lowest cost to reach a particular network segment
+
+  c. The port with the lowest path cost to the root bridge
+
+---
+
+72. A designated port is:
+
+  a. A port which does not forward any frames
+
+  b. A port with the lowest cost to reach a particular network segment
+
+  c. The port with the lowest path cost to the root bridge
+
+---
+
+73. Which of the following statements is true?
+
+  a. All forwarding ports are either designated or blocking
+
+  b. All blocking ports are either root or forwarding
+
+  c. All designated ports are either forwarding or root
+
+---
+
+74. All host data must stop passing through switches as STP converges:
+
+  a. True
+
+  b. False
+
+---
+
+75. The IEEE specifies STP link costs for links of speeds 10, 100, 10000, and 10000
+Mb/s. What are their respective values?
+
+  a. 64, 32, 8, 2
+
+  b. 100, 19, 4, 2
+
+  c. 100, 20, 4, 1
+
+  d. 100, 50, 25, 12
+
+---
+
+76. If two bridges share a link and both would benefit from it being a
+designated port, how is the dispute resolved?
+
+  a. Bridge priority
+
+  b. Bridge ID
+
+  c. Link cost
+
+  d. Chance
+
+---
+
+77. The bridge priority is a number in the range ([Ruby syntax](https://ruby-doc.org/core-2.5.1/Range.html)):
+
+  a. (0..65536)
+
+  b. (0...65536)
+
+  c. (0..32768)
+
+  d. (0...32768)
+
+---
+
+78. Which of the following is not an STP variant?
+
+  a. IEEE 802.1d
+
+  b. PVST+
+
+  c. IEEE 802.1e
+
+  d. PVST++
+
+  e. Rapid PVST+
+
+---
+
+79. The BPDU is:
+
+  a. A controller tasked with managing STP
+
+  b. A unit of information sent between switches during STP convergence
+
+  c. A data storage unit that backs up STP data in a database
+
+---
+
+80. One advantage of PVST+ is:
+
+  a. It doesn't take absurd amounts of time to converge
+
+  b. It is a Cisco standard
+
+  c. It is not an STP variant, so this question is invalid
+
+---
+
+81. PVST++ uses a longer bridge ID than IEEE 802.1d
+
+  a. True
+
+  b. False
+
+  c. PVST++ is not an STP variant, but PVST+ uses a longer bridge ID
+
+  d. PVST++ is not an STP variant; event PVST+ does not use a longer bridge ID
+
+  e. PVST+ and PVST++ are both not STP variants, so the comparison is
+meaningless
+
+---
+
+82. RSTP converges faster than non-RSTP because:
+
+  a. It doesn't, RSTP isn't a real STP variant
+
+  b. It allows all bridges to forward BDPUs
+
+  c. It uses different timers to detect failures more quickly
+
+  d. It uses two extra port states to deal with failures more effectively
+
+---
+
+83. PortFast is a:
+
+  a. Proprietary Cisco protocol that speeds up STP convergence
+
+  b. Proprietary Cisco protocol that speeds up the transition to forwarding
+state of specific interfaces when a bridge is connected
+
+  c. Open standard that speeds up STP convergence
+
+  d. Open standard that speeds up the transition to forwarding
+  state of specific interfaces when a bridge is connected
+
+---
+
+84. Which command starts RSTP on a Cisco switch?
+
+  a. `no shutdown rstp`
+
+  b. `no shutdown spanning-tree rapid-pvst`
+
+  c. `spanning-tree mode rapid-pvst`
+
+  d. RSTP is not an STP variant so it cannot be enabled, but if it were a
+variant it would probably look like `no shutdown rstp`
+
+  e. `spanning-tree mode rapid pvst`
+
+---
+
+85. The original standard for STP can recover automatically in under 15 seconds
+upon a failure
+
+  a. True
+
+  b. False
+
+---
+
 Todo:
 
-* Chapters 15
 * Chapters 16
 * Chapters 17
 * Chapters 18
