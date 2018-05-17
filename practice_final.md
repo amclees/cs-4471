@@ -448,9 +448,114 @@ TCP segments?
 
   b. `access-list 101 deny tcp any any`
 
+---
+
+36. RFC ___ describes IP addresses for internal use (with NAT)
+
+  a. 1918
+
+  b. 1919
+
+  c. 2460
+
+  d. 2461
+
+---
+
+37. The RFC from question 36 reserves the network 10.0.0.0 with a subnet mask
+of:
+
+  a. 255.0.0.0
+
+  b. 255.255.0.0
+
+  c. 255.255.255.0
+
+  d. 255.128.0.0
+
+---
+
+38. NAT is most of configured on:
+
+  a. Hosts
+
+  b. Internal routers
+
+  c. Border routers
+
+  d. Layer 3 switches
+
+---
+
+39. Static NAT allows for:
+
+  a. Mapping internal IP addresses to a pool of global IP addresses that are
+distributed on the fly by a router
+
+  b. Mapping one-to-one between internal and global IP addresses
+
+  c. PAT
+
+---
+
+40. Dynamic NAT allows for:
+
+  a. Mapping internal IP addresses to a pool of global IP addresses that are
+distributed on the fly by a router
+
+  b. Mapping one-to-one between internal and global IP addresses
+
+  c. PAT
+
+---
+
+41. Overloading allows for:
+
+  a. Mapping internal IP addresses to a pool of global IP addresses that are
+distributed on the fly by a router
+
+  b. Mapping one-to-one between internal and global IP addresses
+
+  c. PAT
+
+---
+
+42. Which of the following commands is part of configuring static NAT on a
+router between 199.2.2.2 and 10.1.1.1?
+
+  a. `ip nat inside source static 10.1.1.1 199.2.2.2`
+
+  b. `nat inside source static 10.1.1.1 199.2.2.2`
+
+  c. `ip nat outside source static 199.2.2.2 10.1.1.1`
+
+---
+
+43. Which of the following is part of configuring a pool of IP addresses for NAT
+to use?
+
+  a. `ip nat pool swimming 199.2.2.1 199.2.2.220 netmask 255.255.255.0`
+
+  b. `ip nat pool john 199.2.2.1 199.2.2.220 netmask 255.205.255.0`
+
+  c. `nat pool kyle 199.2.2.1 199.2.2.220 netmask 255.255.255.0`
+
+---
+
+44. Which of the following could be a part of configuring PAT?
+
+  a. `ip nat inside source list 1 pool net pat`
+
+  b. `ip nat outside source list -5 pool net pat`
+
+  c. `ip nat outside source list 1 pool swimming pat`
+
+  d. `ip nat inside source list 1 pool kyle overload`
+
+---
+
 Todo:
 
-* Chapters 13
 * Chapters 14
 * Chapters 15
 * Chapters 16
