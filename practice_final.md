@@ -1,6 +1,8 @@
 # CS 4471 Final Exam
 
-This exam is closed-book and should be taken in under 15 minutes.
+This exam is closed-book and should be taken in under 30 minutes.
+
+Tentative solution following the above instruction may be found below.
 
 ## Multiple Choice
 
@@ -11,6 +13,8 @@ This exam is closed-book and should be taken in under 15 minutes.
   b. Seen by all hosts regardless of VLAN, since VLANs are a layer 3 protocol
 
   c. Seen only by the destination host
+
+a
 
 ---
 
@@ -23,6 +27,8 @@ This exam is closed-book and should be taken in under 15 minutes.
   c. Logical
 
   d. Layer 3
+
+c
 
 ---
 
@@ -37,6 +43,8 @@ This exam is closed-book and should be taken in under 15 minutes.
   d. Root port
 
   e. Gigabit Ethernet port
+
+a
 
 ---
 
@@ -53,6 +61,8 @@ forwarded on a(n):
 
   e. Gigabit Ethernet port
 
+b
+
 ---
 
 5. An access port carries the traffic of:
@@ -65,19 +75,23 @@ forwarded on a(n):
 
   d. All VLANs
 
+a
+
 ---
 
 6. A switch port may be:
 
   a. Either an access or trunk port
 
-  b. Both an access or trunk port
+  b. Both an access and trunk port
 
   c. Neither an access nor a trunk port
 
   d. a. and b.
 
   e. a. and c.
+
+e
 
 ---
 
@@ -88,6 +102,8 @@ forwarded on a(n):
   b. Totally unaware
 
   c. Very wary
+
+b
 
 ---  
 
@@ -105,6 +121,8 @@ forwarded on a(n):
 
   f. b, c, and d
 
+f
+
 ---
 
 9. The maximum number of nonextended VLANs is:
@@ -118,6 +136,8 @@ forwarded on a(n):
   d. 4094
 
   e. 4096
+
+b
 
 ---
 
@@ -133,6 +153,8 @@ forwarded on a(n):
 
   e. 4096
 
+d
+
 ---
 
 11. The VLAN frame tag is removed before the frame is send out an access link:
@@ -140,6 +162,8 @@ forwarded on a(n):
   a. True
 
   b. False
+
+a
 
 ---
 
@@ -150,6 +174,8 @@ forwarded on a(n):
   b. Network ID
 
   c. Source MAC address
+
+a
 
 ---
 
@@ -163,6 +189,8 @@ forwarded on a(n):
 
   d. Intranet Switch Link
 
+c
+
 ---
 
 14. The IEEE standard for frame tagging is:
@@ -175,6 +203,8 @@ forwarded on a(n):
 
   d. 801.12xqzzvy
 
+c
+
 ---
 
 15. The frame tagging method that puts a field into a frame (rather than onto):
@@ -182,6 +212,8 @@ forwarded on a(n):
   a. ISL
 
   b. The IEEE Standard from 14.
+
+b
 
 ---
 
@@ -192,6 +224,9 @@ forwarded on a(n):
   b. The CRC must be recalculated
 
   c. The value of the frame delimiter must be recalculated
+
+
+b
 
 ---
 
@@ -206,6 +241,8 @@ frame with a VLAN tag inserted:
 
   d. 32, 32, 4
 
+c
+
 ---
 
 18. The IEEE standard for frame tagging can support a maximum of what number of
@@ -218,6 +255,8 @@ VLANs given field size as its only constraint:
   c. 4094
 
   d. 4096
+
+d
 
 ---
 
@@ -233,6 +272,8 @@ following VLAN methodologies becomes possible?
   d. a. and b.
 
   e. b and c.
+
+e
 
 ---
 
@@ -250,6 +291,8 @@ require further purchases?
 
   e. b and c.
 
+e
+
 ---
 
 21. IVR stands for:
@@ -262,17 +305,21 @@ require further purchases?
 
   d. Intra-VLAN routing
 
+c
+
 ---
 
 22. Which command creates a VLAN on a switch?
 
-  a. `vlan <vlan id> <interface id`
+  a. `vlan <vlan id> <interface id>`
 
   b. `vlan <vlan id>`
 
   c. `vlan create <vlan id>`
 
   d. `no delete vlan <vlan id>`
+
+b
 
 ---
 
@@ -286,6 +333,8 @@ switches to another method?
   c. `switchport trunk tag n-isl`
 
   d. `switchport trunk tag dot1q`
+
+a
 
 ---
 
@@ -302,6 +351,8 @@ interface(s) as trunk port(s)?
 
   e. `switchport access <vlan id>`
 
+d
+
 ---
 
 25. From interface config mode, which command designates the current
@@ -317,9 +368,11 @@ interface(s) as trunk port(s)?
 
   e. `switchport access <vlan id>`
 
+d, same as problem 24
+
 ---
 
-26. From subinterface config mode, which command set the VLAN of the current
+26. From subinterface config mode, which command sets the VLAN of the current
 subinterface?
 
   a. `encapsulation dot1q <vlan id>`
@@ -329,6 +382,8 @@ subinterface?
   c. `switchport trunk <vlan id>`
 
   d. `switchport trunk vlan <vlan id>`
+
+b
 
 ---
 
@@ -344,6 +399,8 @@ subinterface?
 
   e. `no non-ivr interface`
 
+c
+
 ---
 
 28. The DMZ typically would not contain which of the following types of server?
@@ -355,6 +412,8 @@ subinterface?
   c. DNS
 
   d. CVS
+
+d
 
 ---
 
@@ -368,6 +427,8 @@ the following is true?
 
   c. (S ∩ E) ≠ ∅
 
+b
+
 ---
 
 30. The same access list can filter inbound and outbound packets.
@@ -375,6 +436,8 @@ the following is true?
   a. True
 
   b. False
+
+b
 
 ---
 
@@ -388,6 +451,8 @@ the following is true?
 
   d. 1-100, 1400-2000
 
+a
+
 ---
 
 32. 172.24.16.12 matches 172.24.0.0 with a wildcard mask of 0.0.128.255
@@ -395,6 +460,8 @@ the following is true?
   a. True
 
   b. False
+
+b
 
 ---
 
@@ -416,9 +483,11 @@ outbound traffic (assume no IP spoofing)?
 
   b. `access-list 101 permit 192.168.0.11 0.0.0.0`
 
-  a. `access-list 1 permit 192.168.0.11 255.255.255.255`
+  c. `access-list 1 permit 192.168.0.11 255.255.255.255`
 
-  b. `access-list 101 permit 192.168.0.11 255.255.255.255`
+  d. `access-list 101 permit 192.168.0.11 255.255.255.255`
+
+a
 
 ---
 
@@ -435,6 +504,8 @@ outbound traffic (assume no IP spoofing)?
   e. None of the above, access lists should be applied fairly throughout the
 network so as not to exclude any routers from the thrill of dropping packets
 
+b
+
 ---
 
 35. Which of the following commands creates an extended access list to drop all
@@ -444,9 +515,11 @@ TCP segments?
 
   b. `access-list 101 deny udp any any`
 
-  a. `access-list 1 deny tcp any any`
+  c. `access-list 1 deny tcp any any`
 
-  b. `access-list 101 deny tcp any any`
+  d. `access-list 101 deny tcp any any`
+
+d
 
 ---
 
@@ -459,6 +532,8 @@ TCP segments?
   c. 2460
 
   d. 2461
+
+a
 
 ---
 
@@ -473,9 +548,11 @@ of:
 
   d. 255.128.0.0
 
+a
+
 ---
 
-38. NAT is most of configured on:
+38. NAT is most often configured on:
 
   a. Hosts
 
@@ -484,6 +561,8 @@ of:
   c. Border routers
 
   d. Layer 3 switches
+
+c
 
 ---
 
@@ -496,6 +575,8 @@ distributed on the fly by a router
 
   c. PAT
 
+b
+
 ---
 
 40. Dynamic NAT allows for:
@@ -506,6 +587,8 @@ distributed on the fly by a router
   b. Mapping one-to-one between internal and global IP addresses
 
   c. PAT
+
+a
 
 ---
 
@@ -518,6 +601,8 @@ distributed on the fly by a router
 
   c. PAT
 
+c
+
 ---
 
 42. Which of the following commands is part of configuring static NAT on a
@@ -529,6 +614,8 @@ router between 199.2.2.2 and 10.1.1.1?
 
   c. `ip nat outside source static 199.2.2.2 10.1.1.1`
 
+a
+
 ---
 
 43. Which of the following is part of configuring a pool of IP addresses for NAT
@@ -539,6 +626,8 @@ to use?
   b. `ip nat pool john 199.2.2.1 199.2.2.220 netmask 255.205.255.0`
 
   c. `nat pool kyle 199.2.2.1 199.2.2.220 netmask 255.255.255.0`
+
+a
 
 ---
 
@@ -552,6 +641,8 @@ to use?
 
   d. `ip nat inside source list 1 pool kyle overload`
 
+d
+
 ---
 
 45. An IPv6 address consists of ___ 16-bit blocks.
@@ -563,6 +654,8 @@ to use?
   c. 8
 
   d. 12
+
+8
 
 ---
 
@@ -576,6 +669,8 @@ to use?
 
   d. Subnet
 
+b
+
 ---
 
 47. The next 16 bits of an IPv6 address are the:
@@ -587,6 +682,8 @@ to use?
   c. Interface ID
 
   d. Subnet
+
+d
 
 ---
 
@@ -600,6 +697,8 @@ to use?
 
   d. Subnet
 
+c
+
 ---
 
 48. Which of the following is not a valid IPv6 address?
@@ -609,6 +708,8 @@ to use?
   b. `2001::12:0:0:1234:56ab`
 
   c. `2001:db8:3c4d:12::1234:56ab`
+
+a
 
 ---
 
@@ -621,6 +722,8 @@ to use?
   c. `fe`
 
   d. `f0`
+
+b
 
 ---
 
@@ -636,6 +739,8 @@ to use?
 
   e. Routers
 
+e
+
 ---
 
 51. The difference between anycast and multicast addresses is:
@@ -647,6 +752,8 @@ to use?
   c. a. and b.
 
   d. a. and b. reversed (they are the opposite of the correct answer)
+
+c
 
 ---
 
@@ -661,6 +768,8 @@ to use?
 
   d. Link-local addresses, `fc00`
 
+a
+
 ---
 
 53. Unique local addresses are routable
@@ -669,6 +778,8 @@ to use?
 
   b. False
 
+a
+
 ---
 
 54. Link-local addresses are routable
@@ -676,6 +787,8 @@ to use?
   a. True
 
   b. False
+
+b
 
 ---
 
@@ -691,6 +804,8 @@ from the address type specifier):
 
   d. 32, 36, 42, 48
 
+a
+
 ---
 
 56. Which command enables all IPv6 routing on a Cisco router?
@@ -704,6 +819,8 @@ from the address type specifier):
   d. `no shutdown ipv6 all-routing`
 
   e. `ipv6 enable`
+
+c
 
 ---
 
@@ -721,9 +838,11 @@ portion of the address?
 
   c. `ipv6 address <address>/<prefix length> mac`
 
+c
+
 ---
 
-58. In the most common MAC padding schema (from 57.), the MAC is padding by:
+58. In the most common MAC padding schema (from 57.), the MAC is padded by:
 
   a. Prepending `FFFF`
 
@@ -736,6 +855,8 @@ portion of the address?
   e. Generating 16 random bits, then XORing them with each of the 4 16-bit
 portions of the max address. This result is then placed into a 2x2 matrix which is
 multiplied with a random matrix in a Galois field.
+
+c
 
 ---
 
@@ -751,6 +872,8 @@ multiplied with a random matrix in a Galois field.
 
   e. `ipv6 address autoconfig default`
 
+e
+
 ---
 
 60. In the stateless autoconfig process, RS and RA respectively stand for:
@@ -763,6 +886,8 @@ multiplied with a random matrix in a Galois field.
 
   d. Route slip and router aversion
 
+a
+
 ---
 
 61. DAD is \_\_\_.
@@ -772,6 +897,8 @@ multiplied with a random matrix in a Galois field.
   b. Duplicate Address Detection
 
   c. Duplicate Advertisement Distrust
+
+b
 
 ---
 
@@ -785,6 +912,8 @@ multiplied with a random matrix in a Galois field.
 
   d. NA/AR
 
+a
+
 ---
 
 63. Which of the following commands set up an IPv6 default route?
@@ -794,6 +923,8 @@ multiplied with a random matrix in a Galois field.
   b. `ipv6 route 2001:DB8:43:91::2/64 gi0/0`
 
   c. `ip route ::/0 gi0/0`
+
+a
 
 ---
 
@@ -806,6 +937,8 @@ multiplied with a random matrix in a Galois field.
   c. 128 bytes
 
   d. 32768 bits
+
+b
 
 ---
 
@@ -821,6 +954,8 @@ multiplied with a random matrix in a Galois field.
 
   e. 4
 
+b
+
 ---
 
 66. A ping request uses the ICMPv6 message type of:
@@ -835,6 +970,8 @@ multiplied with a random matrix in a Galois field.
 
   e. 256
 
+128
+
 ---
 
 67. STP stands for:
@@ -844,6 +981,10 @@ multiplied with a random matrix in a Galois field.
   b. Spanning Tree Primer
 
   c. Specific Time Protocol
+
+  d. Spanning Tree Protocol
+
+d
 
 ---
 
@@ -855,6 +996,8 @@ multiplied with a random matrix in a Galois field.
 
   c. Median bridge ID
 
+a
+
 ---
 
 69. The bridge ID is formed by:
@@ -864,6 +1007,8 @@ multiplied with a random matrix in a Galois field.
   b. Prepending the bridge priority to the MAC address
 
   c. Adding the bridge priority to the MAC address
+
+b
 
 ---
 
@@ -875,6 +1020,8 @@ multiplied with a random matrix in a Galois field.
 
   c. The port with the lowest path cost to the root bridge
 
+c
+
 ---
 
 71. A blocking port is:
@@ -884,6 +1031,8 @@ multiplied with a random matrix in a Galois field.
   b. A port with the lowest cost to reach a particular network segment
 
   c. The port with the lowest path cost to the root bridge
+
+a
 
 ---
 
@@ -895,6 +1044,8 @@ multiplied with a random matrix in a Galois field.
 
   c. The port with the lowest path cost to the root bridge
 
+b
+
 ---
 
 73. Which of the following statements is true?
@@ -905,6 +1056,8 @@ multiplied with a random matrix in a Galois field.
 
   c. All designated ports are either forwarding or root
 
+c
+
 ---
 
 74. All host data must stop passing through switches as STP converges:
@@ -912,6 +1065,8 @@ multiplied with a random matrix in a Galois field.
   a. True
 
   b. False
+
+a
 
 ---
 
@@ -926,6 +1081,8 @@ Mb/s. What are their respective values?
 
   d. 100, 50, 25, 12
 
+b
+
 ---
 
 76. If two bridges share a link and both would benefit from it being a
@@ -939,6 +1096,8 @@ designated port, how is the dispute resolved?
 
   d. Chance
 
+b
+
 ---
 
 77. The bridge priority is a number in the range ([Ruby syntax](https://ruby-doc.org/core-2.5.1/Range.html)):
@@ -950,6 +1109,8 @@ designated port, how is the dispute resolved?
   c. (0..32768)
 
   d. (0...32768)
+
+b
 
 ---
 
@@ -965,6 +1126,8 @@ designated port, how is the dispute resolved?
 
   e. Rapid PVST+
 
+d
+
 ---
 
 79. The BPDU is:
@@ -974,6 +1137,8 @@ designated port, how is the dispute resolved?
   b. A unit of information sent between switches during STP convergence
 
   c. A data storage unit that backs up STP data in a database
+
+b
 
 ---
 
@@ -985,6 +1150,10 @@ designated port, how is the dispute resolved?
 
   c. It is not an STP variant, so this question is invalid
 
+  d. It supports multiple instance, one for each VLAN
+
+d
+
 ---
 
 81. PVST++ uses a longer bridge ID than IEEE 802.1d
@@ -995,10 +1164,12 @@ designated port, how is the dispute resolved?
 
   c. PVST++ is not an STP variant, but PVST+ uses a longer bridge ID
 
-  d. PVST++ is not an STP variant; event PVST+ does not use a longer bridge ID
+  d. PVST++ is not an STP variant; even PVST+ does not use a longer bridge ID
 
   e. PVST+ and PVST++ are both not STP variants, so the comparison is
 meaningless
+
+d
 
 ---
 
@@ -1011,6 +1182,8 @@ meaningless
   c. It uses different timers to detect failures more quickly
 
   d. It uses two extra port states to deal with failures more effectively
+
+b
 
 ---
 
@@ -1025,6 +1198,8 @@ state of specific interfaces when a bridge is connected
 
   d. Open standard that speeds up the transition to forwarding
   state of specific interfaces when a bridge is connected
+
+b
 
 ---
 
@@ -1041,6 +1216,8 @@ variant it would probably look like `no shutdown rstp`
 
   e. `spanning-tree mode rapid pvst`
 
+c
+
 ---
 
 85. The original standard for STP can recover automatically in under 15 seconds
@@ -1049,6 +1226,8 @@ upon a failure
   a. True
 
   b. False
+
+b
 
 ---
 
@@ -1061,6 +1240,8 @@ upon a failure
   c. Met with a retaliatory DDOS attack if they come from untrusted interfaces
 
   d. Accelerated to allow faster network expansion
+
+b
 
 ---
 
@@ -1076,6 +1257,8 @@ upon a failure
 
   e. None of the above
 
+b
+
 ---
 
 88. The authentication server in IEEE 802.1x is called what?
@@ -1090,6 +1273,8 @@ upon a failure
 
   e. ARC LENGTH
 
+c
+
 ---
 
 89. With proxy ARP enabled, routers respond to ARP requests:
@@ -1102,6 +1287,8 @@ upon a failure
 
   d. That are invalid
 
+b
+
 ---
 
 90. FHRPs allow:
@@ -1111,6 +1298,8 @@ upon a failure
   b. Mapping one logical router to other logical ones
 
   c. Mapping multiple logical routers to one physical one
+
+a
 
 ---
 
@@ -1125,6 +1314,8 @@ upon a failure
   d. a. and c.
 
   e. b. and c.
+
+d
 
 ---
 
@@ -1142,6 +1333,8 @@ upon a failure
 
   f. a., b., and c.
 
+d
+
 ---
 
 93. The HSRP MAC address has three parts: an OUI, the HSRP ID, and the HSRP
@@ -1155,6 +1348,8 @@ group number. The respective lengths of these parts in bytes are what?
 
   d. 4, 1, 1
 
+a
+
 ---
 
 94. HSRP uses timers. Which list includes all HSRP timers?
@@ -1167,6 +1362,8 @@ group number. The respective lengths of these parts in bytes are what?
 
   d. Standy, Hello, Active, Release
 
+b
+
 ---
 
 95. HSRP utilizes standby routers to relieve congestion as necessary.
@@ -1174,6 +1371,8 @@ group number. The respective lengths of these parts in bytes are what?
   a. True
 
   b. False
+
+b
 
 ---
 
@@ -1187,6 +1386,8 @@ group number. The respective lengths of these parts in bytes are what?
 
   d. Classless link-state protocol
 
+c
+
 ---
 
 97. EIGRP is intercompatible with other protocols, that is, some routers being
@@ -1196,9 +1397,11 @@ routed through may be running another protocol.
 
   b. False
 
+b
+
 ---
 
-98. A new router running EIGRP sends a ___ request to its interfaces
+98. A new router running EIGRP sends a(n) ___ request to its interfaces
 
   a. Hello
 
@@ -1207,6 +1410,8 @@ routed through may be running another protocol.
   c. Metric
 
   d. No request is sent when a new router joins
+
+a
 
 ---
 
@@ -1217,6 +1422,8 @@ routed through may be running another protocol.
   b. They will broadcast to route to the new AS through all their interfaces
 
   c. They will enter an endless flood of Hello and ACK packets
+
+a
 
 ---
 
@@ -1232,6 +1439,8 @@ time intervals, SRTTs, and queue information. This table is called:
   d. This table does not actually exist and thus has no name
 
   e. Topology table
+
+a
 
 ---
 
@@ -1254,6 +1463,8 @@ The AD and FD from NY to SF are:
 
   e. 5, 1
 
+c
+
 ---
 
 102. The EIGRP topology table differs how from a routing table:
@@ -1265,6 +1476,8 @@ The AD and FD from NY to SF are:
   c. It is stored as a JSON file in the cloud
 
   d. EIGRP does not have such a table
+
+b
 
 ---
 
@@ -1278,6 +1491,8 @@ The AD and FD from NY to SF are:
 
   d. GET, PUT, POST, PATCH, DELETE
 
+c
+
 ---
 
 104. The algorithm in EIGRP that selects the best path for inclusion in the
@@ -1290,6 +1505,8 @@ routing table is called:
   c. DAUL
 
   d. This algorithm is called EIGRP. There is not another separate algorithm
+
+b
 
 ---
 
@@ -1307,6 +1524,8 @@ other EIGRP neighbors. This process is called:
   e. This is not what happens! Updates are forwarded back to **ALL** EIGRP
 neighbors including the sender.
 
+c
+
 ---
 
 106. When the best path is selected in EIGRP, four factors are considered. They
@@ -1321,6 +1540,8 @@ are:
   d. Only one factor is considered: bandwidth. Other factors are too minor to
 earn a spot in a proprietary Cisco protocol.
 
+c
+
 ---
 
 107. EIGRPv6 exists and is EIGRP for IPv6
@@ -1329,6 +1550,8 @@ earn a spot in a proprietary Cisco protocol.
 
   b. False
 
+a
+
 ---
 
 108. OSPF is often used in small personal networks due to its simplicity
@@ -1336,6 +1559,8 @@ earn a spot in a proprietary Cisco protocol.
   a. True
 
   b. False
+
+b
 
 ---
 
@@ -1349,6 +1574,8 @@ earn a spot in a proprietary Cisco protocol.
 
   d. The backyard domain
 
+b
+
 ---
 
 110. The ASBR is in what area?
@@ -1358,6 +1585,8 @@ earn a spot in a proprietary Cisco protocol.
   b. Any area other than 0
 
   c. Any area
+
+a
 
 ---
 
@@ -1373,6 +1602,8 @@ earn a spot in a proprietary Cisco protocol.
 
   e. OSPF does not define what a link is
 
+d
+
 ---
 
 111. An OSPF RID is
@@ -1386,6 +1617,8 @@ earn a spot in a proprietary Cisco protocol.
   d. A UUID for a route
 
   e. The uppercase version of a UNIX utility for mapping UUIDs to other IDs
+
+c
 
 ---
 
@@ -1405,6 +1638,8 @@ earn a spot in a proprietary Cisco protocol.
 
   g. None of the above
 
+e
+
 ---
 
 113. Adjacencies are formed with all OSPF neighbors
@@ -1412,6 +1647,8 @@ earn a spot in a proprietary Cisco protocol.
   a. True
 
   b. False
+
+b
 
 ---
 
@@ -1427,6 +1664,9 @@ routers. What are they?
   d. The above answers are not sufficient to represent all possible OSPF
 configurations
 
+
+d
+
 ---
 
 115. The ___ protocol discovers neighbors and maintains their relationships in
@@ -1440,6 +1680,8 @@ OSPF.
 
   d. Such a protocol does not exist, the protocol is just OSPF
 
+a
+
 ---
 
 116. The neighborship database is typically stored in the cloud. Choose the best
@@ -1452,6 +1694,8 @@ answer from below.
   c. OSPF has no neighborship database
 
   d. The database uses Redis so it needs to be running in-memory on the router
+
+b
 
 ---
 
@@ -1470,6 +1714,8 @@ routers
 
   f. OSPF does not exchange routing information between routers
 
+a
+
 ---
 
 118. An area ID is associated with:
@@ -1478,6 +1724,8 @@ routers
 
   b. An interface
 
+b
+
 ---
 
 119. All routers and networks in an OSPF area must be contiguous
@@ -1485,6 +1733,8 @@ routers
   a. True
 
   b. False
+
+a
 
 ---
 
@@ -1500,6 +1750,8 @@ routers
 
   e. OSPF always uses broadcast multi-access mode and no other modes exist
 
+d
+
 ---
 
 121. OSPF has three stages. What are they (order matters)?
@@ -1511,6 +1763,8 @@ routers
   c. Neighbor and adjacency initialization, LSA flooding, SPF tree calculation
 
   d. OSPF has four stages
+
+c
 
 ---
 
@@ -1526,6 +1780,8 @@ addresses for transferring LSAs to all adjacent links?
   d. 224.0.0.5, 224.0.1.5
 
   e. OSPF does not transfer LSAs
+
+a
 
 ---
 
@@ -1544,6 +1800,8 @@ addresses for transferring LSAs to all adjacent links?
   f. SPF calculation does not happen because of a special OSPF feature known as
 RAID-0
 
+c
+
 ---
 
 124. Which command enables OSPF on a Cisco router?
@@ -1557,6 +1815,8 @@ RAID-0
   d. `ospf <process id>`
 
   e. Cisco routers do not support OSPF
+
+c
 
 ---
 
@@ -1572,6 +1832,8 @@ RAID-0
 
   e. They are arbitrary precision floating point numbers
 
+a
+
 ---
 
 126. The `network` Cisco IOS command takes an IP address and a subnet mask as
@@ -1582,6 +1844,8 @@ two of its arguements
   b. False
 
   c. There is no such command
+
+b
 
 ---
 
@@ -1597,6 +1861,8 @@ two of its arguements
 
   e. None of the above
 
+a
+
 ---
 
 128. All areas must be connected to area 0 in OSPF
@@ -1604,6 +1870,8 @@ two of its arguements
   a. True
 
   b. False
+
+a
 
 ---
 
@@ -1616,6 +1884,8 @@ two of its arguements
   c. Backbone router
 
   d. b. and c.
+
+b
 
 ---
 
@@ -1630,6 +1900,8 @@ numbered. Order by their numbers least to greatest)?
 
   d. There are not 5 types of LSA in OSPF
 
+b
+
 ---
 
 131. The default Hello timer in OSPF is:
@@ -1641,6 +1913,8 @@ numbered. Order by their numbers least to greatest)?
   c. 15 seconds
 
   d. There is no Hello timer in OSPF
+
+b
 
 ---
 
@@ -1655,6 +1929,8 @@ numbered. Order by their numbers least to greatest)?
   d. 2WAY
 
   e. None of the above
+
+b
 
 ---
 
@@ -1671,6 +1947,8 @@ RID has been received?
 
   e. None of the above
 
+c
+
 ---
 
 134. What OSPF neighbor state indicates no packets have been received on the
@@ -1685,6 +1963,8 @@ interface?
   d. 2WAY
 
   e. None of the above
+
+e
 
 ---
 
@@ -1704,6 +1984,8 @@ interface?
 
   g. There is no EXCHANGE state
 
+f
+
 ---
 
 136. OSPF routing can begin routing after the EXCHANGE state concludes
@@ -1711,6 +1993,8 @@ interface?
   a. True
 
   b. False
+
+b
 
 ---
 
@@ -1724,6 +2008,8 @@ interface?
 
   d. The router ID is based on the MAC address and cannot be set
 
+c
+
 ---
 
 138. The version of OSPF for IPv6 is:
@@ -1736,6 +2022,8 @@ interface?
 
   d. None of the above
 
+d
+
 ---
 
 139. Without a default route, IPv6 routers will be able to route IPv6 datagrams
@@ -1744,6 +2032,8 @@ between networks.
   a. True
 
   b. False
+
+b
 
 ---
 
@@ -1757,6 +2047,8 @@ between networks.
 
   d. None of the above
 
+b
+
 ---
 
 141. Demarcation is the border between:
@@ -1768,6 +2060,8 @@ between networks.
   c. The USA and the UK
 
   d. None of the above
+
+a
 
 ---
 
@@ -1783,6 +2077,8 @@ between networks.
 
   e. None of the above
 
+c
+
 ---
 
 143. The CO, also called the POP, connects:
@@ -1797,6 +2093,8 @@ between networks.
 
   e. None of the above
 
+d
+
 ---
 
 144. Synchronous serial connections are suitable for connecting routers needing
@@ -1810,6 +2108,8 @@ high connection speeds
 
   d. c. implies b., so both
 
+a
+
 ---
 
 145. Asynchronous serial connections are packet-switched
@@ -1817,6 +2117,8 @@ high connection speeds
   a. True
 
   b. False
+
+b
 
 ---
 
@@ -1830,9 +2132,11 @@ high connection speeds
 
   d. DSL is a business model, not a set of networking technologies
 
+a
+
 ---
 
-147. A WAN is based on the idea of connecting two \_\_\_ networks through a
+147. A WAN is based on the idea of connecting \_\_\_ networks through a
 \_\_\_ network
 
   a. Slow, fast
@@ -1844,6 +2148,8 @@ high connection speeds
   d. A WAN (**wide** area network) is based on the idea of **wider** ethernet
 cables, so none of the above
 
+b
+
 ---
 
 148. HOLC is the default encapsulation for serial links on Cisco routers
@@ -1851,6 +2157,8 @@ cables, so none of the above
   a. True
 
   b. False
+
+b
 
 ---
 
@@ -1863,6 +2171,8 @@ cables, so none of the above
   c. PPP does not exist
 
   d. IZDN does not exist
+
+d
 
 ---
 
@@ -1882,6 +2192,8 @@ do you use for encapsulation?
 
   f. PPE
 
+e
+
 ---
 
 151. Which command turns on PPP authentication?
@@ -1893,6 +2205,8 @@ do you use for encapsulation?
   c. `ppp authentication chap pap`
 
   d. PPP does not exist
+
+c
 
 ---
 
@@ -1908,6 +2222,8 @@ do you use for encapsulation?
 
   e. EBGP does not do any "connecting"
 
+c
+
 ---
 
 153. Ciscos Great—and Wonderful—StackWise technology performs *which* advanced
@@ -1921,6 +2237,8 @@ network function?
 
   d. None of the above
 
+a
+
 ---
 
 154. Which of the following is an example of PaaS?
@@ -1933,6 +2251,8 @@ network function?
 
   d. SaaS
 
+b
+
 ---
 
 155. Cisco APIARY-EM is a proprietary Cisco:
@@ -1944,3 +2264,5 @@ network function?
   c. Operating system
 
   d. APIARY-EM is not a Cisco product
+
+d
