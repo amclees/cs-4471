@@ -1910,4 +1910,37 @@ do you use for encapsulation?
 
 ---
 
-* Chapters 22
+153. Ciscos Great—and Wonderful—StackWise technology performs *which* advanced
+network function?
+
+  a. Makes multiple switches on a rack act as one because STP is bad
+
+  b. Downloads more RAM for the whole network
+
+  c. Automatically sets up VLANs, DHCP, and VLSM for the whole network
+
+  d. None of the above
+
+---
+
+154. Which of the following is an example of PaaS?
+
+  a. Digitalocean
+
+  b. Heroku
+
+  c. Apache Cordova
+
+  d. SaaS
+
+---
+
+155. Cisco APIARY-EM is a proprietary Cisco:
+
+  a. SDN controller
+
+  b. Routing algorithm
+
+  c. Operating system
+
+  d. APIARY-EM is not a Cisco product
