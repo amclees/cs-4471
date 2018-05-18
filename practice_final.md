@@ -1738,8 +1738,14 @@ interface?
 
 ---
 
+139. Without a default route, IPv6 routers will be able to route IPv6 datagrams
+between networks.
+
+  a. True
+
+  b. False
+
 Todo:
 
-* Chapters 20
 * Chapters 21
 * Chapters 22
