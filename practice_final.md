@@ -1578,18 +1578,6 @@ b
 
 ---
 
-110. The ASBR is in what area?
-
-  a. 0
-
-  b. Any area other than 0
-
-  c. Any area
-
-a
-
----
-
 110. An OSPF link is:
 
   a. Any network
