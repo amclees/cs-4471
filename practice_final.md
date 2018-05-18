@@ -1745,7 +1745,169 @@ between networks.
 
   b. False
 
-Todo:
+---
 
-* Chapters 21
+140. CPE is owned by:
+
+  a. The ISP
+
+  b. The customer
+
+  c. The NSA
+
+  d. None of the above
+
+---
+
+141. Demarcation is the border between:
+
+  a. The ISP's equipment and the CPE
+
+  b. The CPE and the customer's equipment
+
+  c. The USA and the UK
+
+  d. None of the above
+
+---
+
+142. The ___ connects the demarc to the closest switching office
+
+  a. WAN loop
+
+  b. Global loop
+
+  c. Local loop
+
+  d. Very long ethernet cable
+
+  e. None of the above
+
+---
+
+143. The CO, also called the POP, connects:
+
+  a. The switching office to the backbone router
+
+  b. The customer's network to the provider's network
+
+  c. The users' computers to the internet
+
+  d. b. and reluctantly c.
+
+  e. None of the above
+
+---
+
+144. Synchronous serial connections are suitable for connecting routers needing
+high connection speeds
+
+  a. True
+
+  b. False
+
+  c. Synchronous serial is not a type of connection
+
+  d. c. implies b., so both
+
+---
+
+145. Asynchronous serial connections are packet-switched
+
+  a. True
+
+  b. False
+
+---
+
+146. All various types of DSL are layer ___ technologies
+
+  a. 1
+
+  b. 2
+
+  c. 3
+
+  d. DSL is a business model, not a set of networking technologies
+
+---
+
+147. A WAN is based on the idea of connecting two \_\_\_ networks through a
+\_\_\_ network
+
+  a. Slow, fast
+
+  b. DTE, DCE
+
+  c. DCE, DTE
+
+  d. A WAN (**wide** area network) is based on the idea of **wider** ethernet
+cables, so none of the above
+
+---
+
+148. HOLC is the default encapsulation for serial links on Cisco routers
+
+  a. True
+
+  b. False
+
+---
+
+149. PPP works over dial-up and IZDN media
+
+  a. True
+
+  b. False
+
+  c. PPP does not exist
+
+  d. IZDN does not exist
+
+---
+
+150. Your company has 49 Cisco routers and 1 custom router. It is necessary for
+you to configure serial connections between your routers. What layer 1 protocol
+do you use for encapsulation?
+
+  a. ISDN
+
+  b. IZDN
+
+  c. HOLC
+
+  d. HDLC
+
+  e. PPP
+
+  f. PPE
+
+---
+
+151. Which command turns on PPP authentication?
+
+  a. `no unauthorization ppp chap pap`
+
+  b. `no shutdown ppp-auth`
+
+  c. `ppp authentication chap pap`
+
+  d. PPP does not exist
+
+---
+
+152. EBGP connects:
+
+  a. OSPF areas
+
+  b. Routers
+
+  c. ASs
+
+  d. b. and c.
+
+  e. EBGP does not do any "connecting"
+
+---
+
 * Chapters 22
