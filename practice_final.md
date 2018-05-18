@@ -1599,9 +1599,147 @@ two of its arguements
 
 ---
 
+128. All areas must be connected to area 0 in OSPF
+
+  a. True
+
+  b. False
+
+---
+
+129. A router that is a member of two areas is known as a(n):
+
+  a. ASBR
+
+  b. ABR
+
+  c. Backbone router
+
+  d. b. and c.
+
+---
+
+130. There a 5 types of LSA in OSPF. What are they (order matters as they are
+numbered. Order by their numbers least to greatest)?
+
+  a. Router, Network, Summary, AS, ASBR summary
+
+  b. Router, Network, Summary, ASBR summary, AS
+
+  c. Router, Network, Link, Link Summary, AS Summary
+
+  d. There are not 5 types of LSA in OSPF
+
+---
+
+131. The default Hello timer in OSPF is:
+
+  a. 5 seconds
+
+  b. 10 seconds
+
+  c. 15 seconds
+
+  d. There is no Hello timer in OSPF
+
+---
+
+132. What OSPF neighbor state only applies to NBMA networks using OSPF?
+
+  a. DOWN
+
+  b. ATTEMPT
+
+  c. INIT
+
+  d. 2WAY
+
+  e. None of the above
+
+---
+
+133. What OSPF neighbor state indicates Hello packets have been received but no
+RID has been received?
+
+  a. DOWN
+
+  b. ATTEMPT
+
+  c. INIT
+
+  d. 2WAY
+
+  e. None of the above
+
+---
+
+134. What OSPF neighbor state indicates no packets have been received on the
+interface?
+
+  a. FULL
+
+  b. ATTEMPT
+
+  c. INIT
+
+  d. 2WAY
+
+  e. None of the above
+
+---
+
+135. Neighbors exchange what when in the EXCHANGE state?
+
+  a. All five types of LSA
+
+  b. All four types of LSA
+
+  c. LSDB information
+
+  d. LSAcks
+
+  e. All of the above
+
+  f. c. and d.
+
+  g. There is no EXCHANGE state
+
+---
+
+136. OSPF routing can begin routing after the EXCHANGE state concludes
+
+  a. True
+
+  b. False
+
+---
+
+137. Which command sets the OSPF router ID on a Cisco router?
+
+  a. `no not router-id <router id>`
+
+  b. `router id <router id>`
+
+  c. `router-id <router id>`
+
+  d. The router ID is based on the MAC address and cannot be set
+
+---
+
+138. The version of OSPF for IPv6 is:
+
+  a. OSPFv2
+
+  b. OSPFv6
+
+  c. OSPF is not available for IPv6
+
+  d. None of the above
+
+---
+
 Todo:
 
-* Chapters 19
 * Chapters 20
 * Chapters 21
 * Chapters 22
