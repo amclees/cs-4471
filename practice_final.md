@@ -455,7 +455,7 @@ a
 
 ---
 
-32. 172.24.16.12 matches 172.24.0.0 with a wildcard mask of 0.0.128.255
+32. 172.24.16.12 matches 172.24.0.0 with a wildcard mask of 0.0.240.255
 
   a. True
 
